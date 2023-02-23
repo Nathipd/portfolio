@@ -1,0 +1,30 @@
+
+/* NAV STYLE */
+.nav-links {
+    margin-right: 3%;
+}
+
+.nav-links a {
+    font-size: 2.8vmin;
+    color: #114f7b;
+}
+
+/* NAVBAR MENU STYLE*/
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 2.2vmin;
+}
+
+.menu li:hover {
+
+    background-color: #4c9e9e;
+    border-radius: 0.5vmin;
+    transition: 0.3s ease;
+
+}
+
+.menu li {
+    padding: 0.5vmin 1.4vmin;
+}
