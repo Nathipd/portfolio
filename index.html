@@ -6,59 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
+    <link rel="shortcut icon" href="img/" type="image/x-icon">
 
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/art.css">
-    <link rel="stylesheet" href="style/navbar.css">
-    <link rel="stylesheet" href="style/header-art.css">
 </head>
 
 <body>
-
     <header>
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
 
-        <nav class="navbar">
+            <div class="header-text">
+                <p>Hi, I'm <span>Nathalia Dias</span></p>
+                <h1>Frontend Developer</h1>
+            </div>
+        </div>
+        <!-- ---------about----------- -->
+        <div id="about">
+            <div class="container">
 
+                <div class="img-container">
+                    <img src="img/user.png" alt="">
+                </div>
 
-            <div class="logo"></div>
+                <div class="text-container">
+                    <h1 class="sub-title"> About me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
 
-            <ul class="nav-links">
+                <div class="tab-container">
 
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
 
-                <div class="menu">
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>UI?UX</span><br>Desing web interface</li>
+                            <li><span>Web Development</span><br>Desing web interface</li>
+                        </ul>
+                    </div>
 
-                    <li><a href="/">About</a></li>
+                    <div id="experience" class="tab-contents">
+                        <ul>
+                            <li><span>experience</span><br>Desing web interface</li>
+                            <li><span>Web Development</span><br>Desing web interface</li>
+                        </ul>
+                    </div>
 
-                    <li><a href="/">Projects</a></li>
-
-                    <li><a href="/">Contact</a></li>
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>education</span><br>Desing web interface</li>
+                            <li><span>Web Development</span><br>Desing web interface</li>
+                        </ul>
+                    </div>
 
                 </div>
 
-            </ul>
-
-        </nav>
-
-        <div class="header-content">
-        <div class="text-container">
-            <h1 class="role-text">Frontend Developer</h1>
-            <button class="header-button">
-               <a href="https://www.linkedin.com/in/nathalia-dias-b08aa41ab/"> LinkedIn</a></button>
-        </div>   
-        <div class="art-container">
-            <div class="frame">
-                
             </div>
-        </div>   
         </div>
-
     </header>
 
-    <main>
-
-    </main>
-
+    <script src="script/main.js"></script>
 </body>
 
 </html>
